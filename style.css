@@ -51,6 +51,7 @@ header{
 
 .sp_logo{
     display: none;
+    z-index: 10;
 }
 
 .menu li{
@@ -103,6 +104,10 @@ main{
     font-weight: bold;
 }
 
+    .icon {
+        margin-right: 10px;
+    }
+
 .roots-text{
     font-size: 16px;
 }
@@ -128,12 +133,13 @@ footer{
 }
 
 @media(max-width:1000px){
+
     .menu{
         display: none;
     }
 
     .sp_logo{
-        width: 100%;
+        width: 80%;
         display: block;
     }
 
@@ -156,8 +162,14 @@ footer{
     .text{
         float: none;
         padding-left: 20%;
-        font-size: 20px;
+        padding-top: 0px;
+        font-size: 15px;
         width: 100%;
+    }
+
+    .roots-text{
+        padding-top: 0px;
+        font-size: 10px;
     }
 
     #over-lay{
@@ -177,15 +189,22 @@ footer{
         background-color: white;
         margin: 70px auto 0;
         text-align: center;
-        padding-top:30px;
+        padding-top: 2px;
         z-index: 11;
     }
 
     .sp_menu li{
-        font-size: 30px;
+        font-size: 25px;
         font-weight: bold;
-        border: 10px solid black;
-        margin: 10px 60px;
+        border: 8px solid black;
+        margin: 10px 50px;
     }
 
 }
+
+@media(max-width: 400px){
+    .banner{
+        display: none;
+    }
+}
+
