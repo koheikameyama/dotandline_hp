@@ -86,7 +86,7 @@ main{
     float:left;
 }
 
-.title h2{
+main h2{
     background-image: url('img/dot.jpeg');
     background-repeat: no-repeat;
     height: 52px;
@@ -110,6 +110,46 @@ main{
 
 .roots-text{
     font-size: 16px;
+}
+
+.staff-table{
+    width: 100%;
+    text-align: center;
+    table-layout: fixed;
+}
+
+.staff-table thead{
+    display: block;
+    width: 100%;
+}
+
+.staff-table tbody{
+    display: block;
+    overflow-y: scroll;
+    height: 450px;
+}
+
+.staff-table th,
+.staff-table td {
+    width: 332px;
+}
+
+.staff-img{
+    width: 166px;
+}
+
+.staff-name{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.skill-tag{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 0 5px;
+    border-radius: 5px;
+    margin-right: 2px;
 }
 
 footer{
